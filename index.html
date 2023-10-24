@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--container for the whole page-->
+    <div class="outer-box">
+        <!--container for the header-->
+        <div class="welcome">
+            <h2>Welcome to interactive ABCs of CSS Technology learning Website</h2>
+        </div>
+        <!--container for the description-->
+        <div class="clickonbutton">
+            <h2>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters
+            </h2>
+        </div>
+        <div class="spacer"></div>
+        <!--container for the image and both buttons to align-->
+        <div class="button-position">
+            <!--container for A-->
+            <div class="button-container" id="a-container">
+                <!--image and hidden button container-->
+                <div class="img-container" style="display: none;">
+                    <img id="img-a" src="./img/css-letter-a.png" alt="A">
+                    <button class="hide-button" id="a-hide-button" onclick="toggleImage('a')">Hide Result</button>
+                </div>
+                <button id="a-button" onclick="toggleImage('a')">A</button>
+            </div>
+            <!--container for B-->
+            <div class="button-container" id="b-container">
+                <!--image and hidden button container-->
+                <div class="img-container" style="display: none;">
+                    <img id="img-b" src="./img/css-letter-b.png" alt="B">
+                    <button class="hide-button" id="b-hide-button" onclick="toggleImage('b')">Hide Result</button>
+                </div>
+                <button id="b-button" onclick="toggleImage('b')">B</button>
+            </div>
+            <!--container for C-->
+            <div class="button-container" id="c-container">
+                <!--image and hidden button container-->
+                <div class="img-container" style="display: none;">
+                    <img id="img-c" src="./img/css-letter-c.png" alt="C">
+                    <button class="hide-button" id="c-hide-button" onclick="toggleImage('c')">Hide Result</button>
+                </div>
+                <button id="c-button" onclick="toggleImage('c')">C</button>
+            </div>
+        </div>
+    </div>
+    <!--link to js-->
+    <script src="./js/index.js"></script>
+</body>
+</html>
