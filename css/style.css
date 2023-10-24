@@ -10,17 +10,16 @@
     padding: 20px;
     margin: 20px;
     text-align: center;
-    font: 1.2em sans-serif;
+    font: sans-serif;
 }
 
 .clickonbutton {
     border: 1px solid #000;
     border-color: orangered;
-
     padding: 20px;
     margin: 20px;
     text-align: center;
-    font: 1.2em sans-serif;
+    font: sans-serif;
 }
 
 button {
@@ -31,7 +30,7 @@ button {
     background-color: #ffffff;
     border: 1px solid #000;
     border-color: orangered;
-    padding: 10px 50px;
+    padding: 15px 70px;
 }
 
 .button-position {
@@ -46,7 +45,6 @@ button {
 .button-container {
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
 }
 
 .img-container {

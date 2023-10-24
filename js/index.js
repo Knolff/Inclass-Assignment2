@@ -1,4 +1,5 @@
 function toggleImage(letter) {
+  // gets the container and hide button for the letter
   const container = document.getElementById(`${letter}-container`).getElementsByClassName("img-container")[0]; ; 
   const hideButton = document.getElementById(`${letter}-hide-button`);
 
